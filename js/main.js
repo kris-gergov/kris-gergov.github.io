@@ -1,4 +1,7 @@
-$(".header").css("height", 0.9*$(window).height());
+$(document).ready(function() {
+   var screenHeight = $(window).height();
+   $('.header').css('height', screenHeight + 'px');
+});
 
 $( ".navigation__link" ).on( "click", function() {
     $( "#navi-toggle" ).prop( "checked", false );

@@ -1,7 +1,12 @@
-// var viewportHeight = $('.header').outerHeight();
-// $('.header').css({ height: viewportHeight });
+var bg = $(".header");
 
-$('.header').css({ height: window.innerHeight });
+function resizeBackground() {
+    bg.height($(window).height());
+}
+
+$(window).resize(resizeBackground);
+resizeBackground();
+
 
 $( ".navigation__link" ).on( "click", function() {
     $( "#navi-toggle" ).prop( "checked", false );

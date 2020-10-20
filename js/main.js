@@ -1,24 +1,4 @@
-function greedyJumbotron() {
-    var HEIGHT_CHANGE_TOLERANCE = 100; // Approximately URL bar height in Chrome on tablet
-
-    var jumbotron = $(this);
-    var viewportHeight = $(window).height();
-
-    $(window).resize(function () {
-        if (Math.abs(viewportHeight - $(window).height()) > HEIGHT_CHANGE_TOLERANCE) {
-            viewportHeight = $(window).height();
-            update();
-        }
-    });
-
-    function update() {
-        jumbotron.css('height', viewportHeight + 'px');
-    }
-
-    update();
-}
-
-$('.header').each(greedyJumbotron);
+$(".header").css("height", 0.9*$(window).height());
 
 $( ".navigation__link" ).on( "click", function() {
     $( "#navi-toggle" ).prop( "checked", false );

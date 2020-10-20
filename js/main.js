@@ -1,10 +1,7 @@
-$(document).ready(function() {
-    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-        // true for mobile device
-        var viewportHeight = $('.header').outerHeight();
-        $('.header').css({ height: viewportHeight });
-      }
-});
+// var viewportHeight = $('.header').outerHeight();
+// $('.header').css({ height: viewportHeight });
+
+$('.header').css({ height: window.innerHeight });
 
 $( ".navigation__link" ).on( "click", function() {
     $( "#navi-toggle" ).prop( "checked", false );

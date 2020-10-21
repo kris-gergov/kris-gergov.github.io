@@ -1,12 +1,3 @@
-var bg = $("body");
-var header = $(".header");
-$(window).resize("resizeBackground");
-function resizeBackground() {
-    bg.height(documentElement.clientHeight);
-    header.height(documentElement.clientHeight);
-}
-resizeBackground();
-
 $( ".navigation__link" ).on( "click", function() {
     $( "#navi-toggle" ).prop( "checked", false );
 });

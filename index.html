@@ -1,189 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Kris Gergov">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/icon.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Kris Gergov" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/icon.css" />
     <title>Kris Gergov</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- SECTION: Splashscreen -->
     <div class="splashscreen">
-        <div class="preloader">
-            <span class="preloader__text">Loading</span>
-        </div>
+      <div class="preloader">
+        <span class="preloader__text">Loading</span>
+      </div>
     </div>
     <!-- END SECTION: Splashscreen -->
     <!-- SECTION: Navigation -->
     <div id="top" class="navigation">
-        <div class="navigation__wrapper wrapper--large">
-            <a class="navigation__logo logo">Kris Gergov</a>
-            <nav class="navigation__container">
-                <ul class="navigation__list">
-                    <li><a href="#work">Projects</a></li>
-                    <li><a href="#blog">CV</a></li>
-                    <li><a href="#blog">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="navigation__burger">
-                <span class="navigation__burger-el navigation__burger-el--top"></span>
-                <span class="navigation__burger-el navigation__burger-el--middle"></span>
-                <span class="navigation__burger-el navigation__burger-el--bottom"></span>
-            </div>
+      <div class="navigation__wrapper wrapper--large">
+        <a class="navigation__logo logo">Kris Gergov</a>
+        <nav class="navigation__container">
+          <ul class="navigation__list">
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#contact">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="navigation__burger">
+          <span class="navigation__burger-el navigation__burger-el--top"></span>
+          <span class="navigation__burger-el navigation__burger-el--middle"></span>
+          <span class="navigation__burger-el navigation__burger-el--bottom"></span>
         </div>
+      </div>
     </div>
     <!-- END SECTION: Navigation -->
     <!-- SECTION: Intro -->
     <header class="header">
-        <div class="introduction">
-            <h1 class="box-headline letters rotate-2">
-                <span class="box-words-wrapper">
-                    <b class="is-visible">Full-Stack.</b>
-                    <b>&nbsp;Developer.</b>
-                </span>
-            </h1>
-            <div class="mouse">
-                <div class="scroll"></div>
-            </div>
+      <div class="introduction">
+        <h1 class="box-headline letters rotate-2">
+          <span class="box-words-wrapper">
+            <b class="is-visible">Full-Stack.</b>
+            <b>&nbsp;Developer.</b>
+          </span>
+        </h1>
+        <div class="mouse">
+          <div class="scroll"></div>
         </div>
+      </div>
     </header>
     <!-- END SECTION: Intro -->
     <main role="main">
-        <!-- SECTION: Work -->
-        <section id="work" class="work">
-            <h2 class="work__heading title">Latest Projects</h2>
-            <div class="work__wrapper wrapper--large">
-                <ul class="work__list">
-                    <li class="work__list-el work__list-el--is-active">
-                        <div class="work__content">
-                            <div class="work__content-blurb blurb blurb--framed">
-                                <h3 class="blurb__heading">Node CMS</h3>
-                                <h2 class="blurb__subheading">Kate's cleaning services</h2>
-                                <p class="blurb__copy">Developed using the MVC framework, Express, MongoDB
-                                    and PUG templates.</p>
-                            </div>
-                            <a class="transform-link" href="https://github.com/kris-gergov/katesdemo">Github</a>
-                            <a class="transform-link" href="https://katesdemo.herokuapp.com/login">Demo</a>
-                        </div>
-                        <div class="work__visual">
-                            <img src="/img/Kates.PNG" alt="Node CMS">
-                        </div>
-                    </li>
-                    <li class="work__list-el">
-                        <div class="work__content">
-                            <div class="work__content-blurb blurb blurb--framed">
-                                <h3 class="blurb__heading">Hair salon website</h3>
-                                <h2 class="blurb__subheading">Haircombe LTD</h2>
-                                <p class="blurb__copy">Designed using SASS and utilizing the Google Maps API.</p>
-                            </div>
-                            <a class="transform-link" href="https://github.com/kris-gergov/haircombe">Github</a>
-                            <a class="transform-link" href="haircombe.html">Demo</a>
-                        </div>
-                        <div class="work__visual">
-                            <img src="/img/Haircombe.PNG" alt="Haircombe">
-                        </div>
-                    </li>
-                    <li class="work__list-el">
-                        <div class="work__content">
-                            <div class="work__content-blurb blurb blurb--framed">
-                                <h3 class="blurb__heading">Booking system</h3>
-                                <h2 class="blurb__subheading">Third year project</h2>
-                                <p class="blurb__copy">My main and final project from univerisity developed using Django
-                                    (Python), MySQL and Bootstrap.</p>
-                            </div>
-                            <a class="transform-link" href="https://github.com/kris-gergov/appointment">Github</a>
-                        </div>
-                        <div class="work__visual">
-                            <img src="/img/Appointment.PNG" alt="Third year projecct ">
-                        </div>
-                    </li>
-                </ul>
-                <ul class="work__navigation">
-                    <li class="work__navigation-el work__navigation-el--is-active"></li>
-                    <li class="work__navigation-el"></li>
-                    <li class="work__navigation-el"></li>
-                </ul>
+      <!-- SECTION: Work -->
+      <section id="work" class="work">
+        <h2 class="work__heading title">Latest Projects</h2>
+        <div class="work__wrapper wrapper--large">
+          <ul class="work__list">
+            <li class="work__list-el work__list-el--is-active">
+              <div class="work__content">
+                <div class="work__content-blurb blurb blurb--framed">
+                  <h3 class="blurb__heading">Node CMS</h3>
+                  <h2 class="blurb__subheading">Kate's cleaning services</h2>
+                  <p class="blurb__copy">Developed using the MVC framework, Express, MongoDB and PUG templates.</p>
+                </div>
+                <a class="transform-link" href="https://github.com/kris-gergov/katesdemo">Github</a>
+                <a class="transform-link" href="https://katesdemo.herokuapp.com/login">Demo</a>
+              </div>
+              <div class="work__visual">
+                <img src="/img/Kates.PNG" alt="Node CMS" />
+              </div>
+            </li>
+            <li class="work__list-el">
+              <div class="work__content">
+                <div class="work__content-blurb blurb blurb--framed">
+                  <h3 class="blurb__heading">Hair salon website</h3>
+                  <h2 class="blurb__subheading">Haircombe LTD</h2>
+                  <p class="blurb__copy">Designed using SASS and utilizing the Google Maps API.</p>
+                </div>
+                <a class="transform-link" href="https://github.com/kris-gergov/haircombe">Github</a>
+                <a class="transform-link" href="haircombe.html">Demo</a>
+              </div>
+              <div class="work__visual">
+                <img src="/img/Haircombe.PNG" alt="Haircombe" />
+              </div>
+            </li>
+            <li class="work__list-el">
+              <div class="work__content">
+                <div class="work__content-blurb blurb blurb--framed">
+                  <h3 class="blurb__heading">Booking system</h3>
+                  <h2 class="blurb__subheading">Third year project</h2>
+                  <p class="blurb__copy">
+                    My main and final project from univerisity developed using Django (Python), MySQL and Bootstrap.
+                  </p>
+                </div>
+                <a class="transform-link" href="https://github.com/kris-gergov/appointment">Github</a>
+              </div>
+              <div class="work__visual">
+                <img src="/img/Appointment.PNG" alt="Third year projecct " />
+              </div>
+            </li>
+          </ul>
+          <ul class="work__navigation">
+            <li class="work__navigation-el work__navigation-el--is-active"></li>
+            <li class="work__navigation-el"></li>
+            <li class="work__navigation-el"></li>
+          </ul>
+        </div>
+      </section>
+      <!-- END SECTION: Work -->
+      <!-- SECTION: Contact -->
+      <section id="contact" class="contact">
+        <h2 class="contact__heading title">Contact me</h2>
+        <div class="contact__wrapper wrapper--large">
+          <article class="contact__post">
+            <svg class="contact__post-icon">
+              <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+            </svg>
+            <div class="contact__post-excerpt">
+              <h3>LOCATION</h3>
+              <p>London</p>
             </div>
-        </section>
-        <!-- END SECTION: Work -->
-        <!-- SECTION: Blog -->
-        <section id="blog" class="blog">
-            <h2 class="blog__heading title">Contact Me</h2>
-            <div class="blog__wrapper wrapper--large">
-                <article class="blog__post">
-                    <svg class="blog__post-icon">
-                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
-                    </svg>
-                    <div class="blog__post-excerpt">
-                        <h3>WHERE TO FIND ME</h3>
-                        <p>Greenwich, London</p>
-                    </div>
-                </article>
-                <article class="blog__post">
-                    <svg class="blog__post-icon">
-                        <use xlink:href="img/sprite.svg#icon-mail"></use>
-                    </svg>
-                    <div class="blog__post-excerpt">
-                        <h3>EMAIL ME AT</h3>
-                        <p>krisgergov@gmail.com</p>
-                    </div>
-                </article>
-                <article class="blog__post">
-                    <svg class="blog__post-icon">
-                        <use xlink:href="img/sprite.svg#icon-phone"></use>
-                    </svg>
-                    <div class="blog__post-excerpt">
-                        <h3>CALL ME AT</h3>
-                        <p>07460678769</p>
-                    </div>
-                </article>
-                <article class="blog__post">
-                    <svg class="blog__post-icon">
-                        <use xlink:href="img/sprite.svg#icon-user"></use>
-                    </svg>
-                    <div class="blog__post-excerpt">
-                        <h3>CV</h3>
-                        <div class="blog__view-more">
-                            <a class="button blog__view-more--el" href="/img/Kris Gergov.pdf" download>Download</a>
-                        </div>
-                    </div>
-                </article>
+          </article>
+          <article class="contact__post">
+            <svg class="contact__post-icon">
+              <use xlink:href="img/sprite.svg#icon-mail"></use>
+            </svg>
+            <div class="contact__post-excerpt">
+              <h3>EMAIL</h3>
+              <p>krisgergov@gmail.com</p>
             </div>
-        </section>
-        <!-- END SECTION: Blog -->
+          </article>
+          <article class="contact__post">
+            <svg class="contact__post-icon">
+              <use xlink:href="img/sprite.svg#icon-phone"></use>
+            </svg>
+            <div class="contact__post-excerpt">
+              <h3>CALL</h3>
+              <p>07460678769</p>
+            </div>
+          </article>
+          <article class="contact__post">
+            <svg class="contact__post-icon">
+              <use xlink:href="img/sprite.svg#icon-user"></use>
+            </svg>
+            <div class="contact__post-excerpt">
+              <h3>CV</h3>
+              <div class="contact__view-more">
+                <a class="button contact__view-more--el" href="/img/Kris Gergov.pdf" download>Download</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- END SECTION: Contact -->
     </main>
     <!-- SECTION: Footer -->
     <footer class="footer">
-        <div class="footer__wrapper wrapper--large">
-            <p class="footer__copyright no-margin">&copy; 2021 Kris Gergov</p>
-            <a class="footer__logo logo" href="#0">KG</a>
-            <a class="footer__arrow" href="#top">
-                <svg class="footer__arrow-el" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0"
-                    viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65">
-                    <g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)">
-                        <path
-                            d="M315.4 365c-336-305-345-315-290-351 18-12 32-14 45-8 10 5 145 123 300 262l281 253 196-178c108-98 237-215 287-260 50-46 98-83 107-83s27 9 40 19c20 16 22 23 14 46 -12 33-623 585-647 585C638.4 650 489.4 522 315.4 365z" />
-                    </g>
-                </svg>
-            </a>
-        </div>
+      <div class="footer__wrapper wrapper--large">
+        <p class="footer__copyright no-margin">&copy; 2021 Kris Gergov</p>
+        <a class="footer__logo logo" href="#0">KG</a>
+        <a class="footer__arrow" href="#top">
+          <svg
+            class="footer__arrow-el"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            id="Layer_1"
+            x="0"
+            y="0"
+            viewBox="0 0 130 65"
+            xml:space="preserve"
+            enable-background="new 0 0 130 65"
+          >
+            <g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)">
+              <path
+                d="M315.4 365c-336-305-345-315-290-351 18-12 32-14 45-8 10 5 145 123 300 262l281 253 196-178c108-98 237-215 287-260 50-46 98-83 107-83s27 9 40 19c20 16 22 23 14 46 -12 33-623 585-647 585C638.4 650 489.4 522 315.4 365z"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
     </footer>
     <!-- END SECTION: Footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!-- jQuery local fallback -->
-    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+    <script>
+      window.jQuery || document.write('<script src="/js/vendor/jquery-2.2.4.min.js"><\/script>');
+    </script>
     <script src="/js/functions-min.js"></script>
     <script type="text/javascript" src="js/animated-headline.js"></script>
-</body>
-
+  </body>
 </html>
